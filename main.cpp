@@ -8,7 +8,7 @@
  *
  * According to
  *  https://www.jetbrains.com/help/clion/clangformat-as-alternative-formatter.html
- * these functions should work directly from within  the CLion editor.
+ * these functions should work directly from within the CLion editor.
  *
  * Indeed the clang-tidy fixes are nicely applied following the rules defined in ".clang-tidy".
  *
