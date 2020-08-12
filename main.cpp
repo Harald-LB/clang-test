@@ -1,10 +1,16 @@
 /**
  * An example that breaks as many clang-tidy-rules as possible.
  *
- * Run the following commands to get it fixed:
+ * Run the following in the command line to get it fixed:
  *
  *   $ clang-tidy main.cpp -fix -p="./cmake-build-debug"
  *   $ clang-format main.cpp -i
+ *
+ * The same should work in the CLion editor. Indeed the clang-tidy fixes are nicely applied.
+ *
+ * But if we do "Code > Reformat Code Ctrl+Alt+L" CLion will completely ignore the settings we have
+ * defined in file ".clang-format". So in this example we'll get an indent width of 4 characters,
+ * although in ".clang-format" we have "IndentWidth: 2"
  *
  */
 #include <iostream>
