@@ -1,5 +1,5 @@
 /**
- * An example that breaks as many clang-tidy-rules as possible.
+ * Here is an example that breaks as many clang-tidy-rules as possible and lacks all formatting.
  *
  * Run the following in the command line to get it fixed:
  *
@@ -8,7 +8,7 @@
  *
  * According to
  *  https://www.jetbrains.com/help/clion/clangformat-as-alternative-formatter.html
- * these functions should work directly from within the CLion editor.
+ * these two functions should also work directly from within the CLion editor.
  *
  * Indeed the clang-tidy fixes are nicely applied following the rules defined in ".clang-tidy".
  *
